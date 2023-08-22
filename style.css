@@ -1,0 +1,128 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.m1{
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4em;
+    background-size: cover;
+    transition: 2s;
+    background-color: black;
+    color:transparent;
+}
+.m1:hover{
+    background-image: url(img10.jpeg);
+    filter: drop-shadow(8px 8px 8px black);
+    color: transparent;
+    scale: 1.01;
+}
+.img{
+    width: 22%;
+    height: 30%;
+    background-color: yellow;
+    margin: 1.25%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    transition: 2s;
+}
+.img:hover{
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+.img1{
+    background-image: url(img1.jpeg);
+}
+.img2{
+    background-image: url(img2.jpeg);
+}
+.img3{
+    background-image: url(img3.jpeg);
+}
+.img4{
+    background-image: url(img4.jpeg);
+}
+.img5{
+    background-image: url(img5.jpeg);
+}
+.img6{
+    background-image: url(img6.jpeg);
+}
+.img7{
+    background-image: url(img7.jpeg);
+}
+.img8{
+    background-image: url(img8.jpeg);
+}
+.m3{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+button{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: red;
+}
+button:focus{
+    background-color: blue;
+}
+.m5{
+    border-left: 3px solid black;
+}
+.m6{
+    color: transparent;
+    background-attachment: fixed;
+    margin: 10px;
+    width: 500px;
+    height: 50%;
+    background-image: url(img9.jpeg);
+    background-size: cover;
+    transition: 3s;
+}
+.m6:hover{
+    color: transparent;
+    filter: drop-shadow(8px 8px 8px black);
+    scale: 1.04;
+    
+}
+.mo{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+    background-color: lime;
+    width: max-content;
+    position: absolute;
+    margin-left: 520px;
+}
+form{
+    text-align: center;
+}
+.mo1{
+    font-family: 'Courier New', Courier, monospace;
+    transition: 2s;
+}
+.mo1:hover{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a1{
+    text-align: center;
+}
+.bb1{
+    position: absolute;
+    margin-left: 610px;
+    font-size: 2em;
+}
+.a2{
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
