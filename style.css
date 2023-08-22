@@ -98,11 +98,11 @@ button:focus{
 }
 .mo{
     font-family: 'Courier New', Courier, monospace;
-    line-height: 20px;
+    line-height: 50px;
     background-color: lime;
-    width: max-content;
+    width: 100%;
     position: absolute;
-    margin-left: 520px;
+    text-align: center;
 }
 form{
     text-align: center;
