@@ -10,7 +10,7 @@ html,body{
 }
 .img{
     width: 22%;
-    height: 30%;
+    height: 43%;
     background-color: yellow;
     margin: 1.25%;
     background-size: cover;
@@ -19,7 +19,7 @@ html,body{
     transition: 0.5s;
     filter: drop-shadow(2px 2px 2px white);
     background-position: center;
-
+    cursor: pointer;
 }
 .img:hover{
     border-radius: 20%;
@@ -127,6 +127,7 @@ button:focus{
     background-image: url(img9.jpeg);
     background-size: cover;
     transition: 3s;
+    margin: auto;
 }
 .m6:hover{
     color: transparent;
@@ -172,6 +173,7 @@ form{
     color: transparent;
     line-height: 30px;
     height: 50px;
+    cursor: pointer;
     border: 2px solid aqua;
     background-color: white;
     margin-left: 190px;
@@ -196,4 +198,32 @@ form{
 }
 .oo{
     margin-top: 10px;
+}
+.mmi{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lime;
+    line-height: 50px;
+}
+.mmi:hover{
+    color: lime;
+    background-color: white;
+}
+
+.bub{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 40px auto;
+    border: 2px solid black;
+    outline:2px solid white;
+    background-size: cover;
+    background-image: url(bulbul.jpeg);
+    filter: blur(5px);
+    transition: 0.7s;
+    /* box-shadow: 0 0 5 aqua,0 0 10 aqua; */
+}
+.bub:hover{
+    filter: blur(0);
+    /* filter: drop-shadow(2px 2px 2px aqua) */
 }
