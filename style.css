@@ -1,27 +1,12 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: black;
+    color: white;
 }
 *{
     margin: 0;
     padding: 0;
-}
-.m1{
-    font-family: 'Courier New', Courier, monospace;
-    border-bottom: 2px solid black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-size: 4em;
-    background-size: cover;
-    transition: 2s;
-    background-color: black;
-    color:transparent;
-}
-.m1:hover{
-    background-image: url(img10.jpeg);
-    filter: drop-shadow(8px 8px 8px black);
-    color: transparent;
-    scale: 1.01;
 }
 .img{
     width: 22%;
@@ -31,36 +16,89 @@ html,body{
     background-size: cover;
     background-position: center;
     display: inline-block;
-    transition: 2s;
+    transition: 0.5s;
+    filter: drop-shadow(2px 2px 2px white);
+    background-position: center;
+
 }
 .img:hover{
     border-radius: 20%;
     box-shadow: 2px 2px 2px 2px black;
+    scale: 1.1;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.8),
+    0 0 5px rgba(0, 255, 255, 0.7),
+    0 0 25px rgba(0, 255, 255, 0.6),
+    0 0 50px rgba(0, 255, 255, 0.5),
+    0 0 100px rgba(0, 255, 255, 0.4);
 
 }
 .img1{
     background-image: url(img1.jpeg);
+    filter: blur(4px);
+}
+.img1:hover{
+    filter: blur(0);
 }
 .img2{
     background-image: url(img2.jpeg);
+    filter: contrast(60%);
+    filter: hue-rotate(400deg);
+}
+.img2:hover{
+    filter: contrast(100%);
+    filter: hue-rotate(0);
 }
 .img3{
     background-image: url(img3.jpeg);
+    filter: brightness(50%);
+    filter: hue-rotate(400deg);
+}
+.img3:hover{
+    filter: hue-rotate(0);
+    filter: brightness(100%);
 }
 .img4{
     background-image: url(img4.jpeg);
+    filter: grayscale(100%);
+    filter: hue-rotate(400deg);
+}
+.img4:hover{
+    filter: grayscale(0);
+    filter: hue-rotate(0);
 }
 .img5{
     background-image: url(img5.jpeg);
+    filter: hue-rotate(0deg);
+}
+.img5:hover{
+    filter: hue-rotate(180deg);
 }
 .img6{
     background-image: url(img6.jpeg);
+    filter: invert(0%);
+    filter: hue-rotate(400deg);
+}
+.img6:hover{
+    filter: invert(100%);
+    filter: hue-rotate(0);
 }
 .img7{
     background-image: url(img7.jpeg);
+    filter: brightness(0);
+    filter: blur(4px);
+}
+.img7:hover{
+    /* filter: brightness(100%); */
+    filter: blur(0);
 }
 .img8{
     background-image: url(img8.jpeg);
+    filter: grayscale(100%);
+    filter: hue-rotate(400deg);
+}
+.img8:hover{
+    filter: grayscale(0);
+    filter: hue-rotate(0);
 }
 .m3{
     font-family:Arial, Helvetica, sans-serif;
@@ -111,18 +149,51 @@ form{
     font-family: 'Courier New', Courier, monospace;
     transition: 2s;
 }
-.mo1:hover{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 .a1{
     text-align: center;
-}
-.bb1{
-    position: absolute;
-    margin-left: 610px;
-    font-size: 2em;
 }
 .a2{
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
+}
+.m1{
+    text-align: center;
+    font-size: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.y{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    width: 115px;
+    border-radius: 10%;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 30px;
+    height: 50px;
+    border: 2px solid aqua;
+    background-color: white;
+    margin-left: 190px;
+    display: inline-block;
+    transition: 3s;
+    box-shadow: 0 0 5px white,0 0 10px white;
+}
+.y:hover{
+    border-radius: 50%;
+    width: 130px;
+    height: 50px;
+    color: transparent;
+    background-image: url(img11.jpeg);
+    background-color: blue;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.8),
+    0 0 5px rgba(0, 255, 255, 0.7),
+    0 0 25px rgba(0, 255, 255, 0.6),
+    0 0 50px rgba(0, 255, 255, 0.5),
+    0 0 100px rgba(0, 255, 255, 0.4);
+    scale: 1.1;
+    filter: drop-shadow(2px 2px 2px white);
+}
+.oo{
+    margin-top: 10px;
 }
