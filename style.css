@@ -118,20 +118,20 @@ button:focus{
 .m5{
     border-left: 3px solid black;
 }
-.m6{
+.xx{
     color: transparent;
-    background-attachment: fixed;
     margin: 10px;
+    background-attachment:fixed;
     width: 500px;
     height: 50%;
-    background-image: url(img9.jpeg);
+    background-color: white;
     background-size: cover;
     transition: 3s;
     margin: auto;
 }
-.m6:hover{
+.xx:hover{
     color: transparent;
-    filter: drop-shadow(8px 8px 8px black);
+    filter: drop-shadow(8px 8px 8px white);
     scale: 1.04;
     
 }
@@ -175,14 +175,14 @@ form{
     height: 50px;
     cursor: pointer;
     border: 2px solid aqua;
-    background-color: white;
+    background-color: aqua;
     margin-left: 190px;
     display: inline-block;
-    transition: 3s;
+    transition: 0.5s;
     box-shadow: 0 0 5px white,0 0 10px white;
 }
 .y:hover{
-    border-radius: 50%;
+
     width: 130px;
     height: 50px;
     color: transparent;
@@ -209,7 +209,6 @@ form{
     color: lime;
     background-color: white;
 }
-
 .bub{
     width: 200px;
     height: 200px;
@@ -226,4 +225,28 @@ form{
 .bub:hover{
     filter: blur(0);
     /* filter: drop-shadow(2px 2px 2px aqua) */
+}
+.k{
+    background-image: url(img9.jpeg);
+}
+.k1{
+    background-image: url(carimg1.jpeg);
+}
+.k2{
+    background-image: url(carimg2.jpeg);
+}
+.k3{
+    background-image: url(carimg3.jpeg);
+}
+.k4{
+    background-image: url(carimg4.jpeg);
+}
+.k5{
+    background-image: url(carimg5.jpeg);
+}
+.k6{
+    background-image: url(carimg6.jpeg);
+}
+.k7{
+    background-image: url(carimg7.jpeg);
 }
