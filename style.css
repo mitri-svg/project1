@@ -225,6 +225,7 @@ form{
 .bub:hover{
     filter: blur(0);
     /* filter: drop-shadow(2px 2px 2px aqua */
+    scale: 1.1;
 }
 .k{
     background-image: url(img9.jpeg);
